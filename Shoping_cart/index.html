@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Apps.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,400&display=swap" rel="stylesheet">
+    <title>Shoping Cart</title>
+</head>
+<body>
+    <header>
+        <h1>MasterMind Shoping Cart</h1>
+    </header>
+    <main>
+        <div class="products-container">
+            <div class="products" id="GraphicCard" draggable="true">
+                <img src="./img/Grafica.png" alt="GraphicCard" draggable="false">
+                <p class="name">MSI GeForce RTX 3060 VENTUS 2X OC LHR 12GB GDDR6</p>
+                <p class="price" value="349,90">349,90€</p>
+            </div>
+            <div class="products" id="PcGaming" draggable="true">
+                <img src="./img/PcGaming.png" alt="PcGaming" draggable="false">
+                <p class="name">PcCom Gold Pro AMD Ryzen 5 5600X/16GB/1TB SSD/RTX 3060</p>
+                <p class="price" value="1199,00">1199,00€</p>
+            </div>
+            <div class="products" id="Monitor" draggable="true">
+                <img src="./img/Monitor.png" alt="Monitor" draggable="false">
+                <p class="name">AOC Q27G2E 27" LED QHD 155Hz FreeSync Premium</p>
+                <p class="price" value="199,99">199,99€</p>
+            </div>
+            <div class="products" id="Mouse" draggable="true">
+                <img src="./img/Mouse.png" alt="Mouse" draggable="false">
+                <p class="name">Logitech G502 Hero Ratón Gaming 25600DPI</p>
+                <p class="price" value="54,99">54,99€</p>
+            </div>
+            <div class="products" id="Keyboard" draggable="true">
+                <img src="./img/Keyboard.png" alt="Keyboard" draggable="false">
+                <p class="name">Logitech G213 Prodigy Teclado Gaming</p>
+                <p class="price" value="66,99">66,99€</p>
+            </div>
+            <div class="products" id="Headset" draggable="true">
+                <img src="./img/Headset.png" alt="Headset" draggable="false">
+                <p class="name">Newskill Sobek Auriculares Gaming RGB 7.1 PlayStation/PC Negros</p>
+                <p class="price" value="54,95">54,95€</p>
+            </div>
+        </div>
+        <article class="Cart">
+            <div class="ShoppingCart">
+                    <h1 id="CartTitle">Shopping Cart</h1>
+                    <p>Drag and Drop the products here to purchase them</p>
+            </div>
+            <div class="TotalPrice">
+                <p>Total Price: 0€</p>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

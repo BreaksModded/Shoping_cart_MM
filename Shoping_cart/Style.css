@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de productos */
+.products-container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; /* Añade un margen superior para separar del título */
+}
+
+.products {
+    text-align: center;
+    align-items: center;
+    max-width: 40px ;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #000000; /* Borde fino de color negro */
+    flex-grow: 1; /* Permite que los productos se reduzcan en tamaño */
+    max-width: 200px; /* Establece un ancho máximo para los productos */
+}
+
+.products img {
+    width: 80%;
+    height: auto;
+}
+
+/* Estilos para el carrito de la compra y precio total */
+.ShoppingCart{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #000000; /* Borde fino de color negro */
+}
+
+.TotalPrice{
+    background-color: #f2f2f2; /* Fondo gris claro */
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #000000; /* Borde fino de color negro */   
+}
+
+.price{
+    float: right;
+}
+
+/* Estilos para el listado del carrito */
+#ShoppingCartTxt {
+    margin: 0;
+}
+
+#ShoppingCartList {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#ShoppingCartList li {
+    margin-bottom: 5px;
+}
+
